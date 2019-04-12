@@ -11,7 +11,7 @@
 }
 
 #biorect, #album1rect, #album2rect {
-    transition: opacity 0.5s;
+    transition: opacity 0.2s;
 }
 
 #biorect, .st9 {
@@ -34,7 +34,7 @@
 
 .st2, .st3, .st4, .st5 {
     fill: #151515;
-    animation: float 6s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 }
 
@@ -45,6 +45,11 @@
     stroke-miterlimit: 10;
 }
 
+rect.st4 {
+    fill: #FFC600;
+    animation-delay: 0.5ms;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+}
 .st4 {
     fill: #FFC600;
 }
@@ -101,6 +106,7 @@
 /* ANIMATION KEYFRAMES */
 
 @keyframes float {
+    
 	0% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 		transform: translatey(0px);
