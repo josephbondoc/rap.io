@@ -1,0 +1,83 @@
+html {
+    background-color: #333132;
+}
+
+#ll {
+    position: absolute;
+    top: 300px;
+    left: 130px;
+}
+
+#choose {
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 45px;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: roboto;
+}
+
+#old {
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 95px;
+    height: 30px;
+    position: absolute;
+    top: 190px;
+    left: 30px;
+    border: 0.5px solid #FBC403;
+    font-family: roboto;
+    font-weight: 100;
+}
+
+#golden {
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 95px;
+    height: 30px;
+    position: absolute;
+    top: 190px;
+    left: 140px;
+    border: 0.5px solid #FBC403;
+    font-family: roboto;
+    font-weight: 100;
+}
+
+#modern {
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 95px;
+    height: 30px;
+    position: absolute;
+    top: 190px;
+    left: 253px;
+    border: 0.5px solid #FBC403;
+    font-family: roboto;
+    font-weight: 100;
+}
+
+.underline {
+        position: absolute;
+        background-color: white;
+        height: 1.4px;
+        width: 16px;
+}
+
+#uold {
+    top: 213px;
+    left: 49px;
+}
+
+#ugolden {
+    top: 213px;
+    left: 165px;
+}
+
+#umodern {
+    top: 213px;
+    left: 280px;
+}
