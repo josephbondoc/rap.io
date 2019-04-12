@@ -81,3 +81,98 @@ html {
     top: 213px;
     left: 280px;
 }
+
+#uchoose {
+    position: absolute;
+    background-color: white;
+    height: 1.5px;
+    width: 25px;
+    top: 109px;
+    left: 48px;
+}
+
+#olddate {
+    color: white;
+    position: absolute;
+    top: 224px;
+    left: 46px;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: roboto;
+}
+
+#goldendate {
+    color: white;
+    position: absolute;
+    top: 224px;
+    left: 155px;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: roboto;
+}
+
+#moderndate {
+    color: white;
+    position: absolute;
+    top: 224px;
+    left: 264px;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: roboto;
+}
+
+#uolddate {
+    position: absolute;
+    background-color: white;
+    height: 1.4px;
+    width: 16px;
+    top: 238px;
+    left: 49px;
+}
+
+#ugoldendate {
+    position: absolute;
+    background-color: white;
+    height: 1.4px;
+    width: 16px;
+    top: 238px;
+    left: 159px;
+}
+
+#umoderndate {
+    position: absolute;
+    background-color: white;
+    height: 1.4px;
+    width: 16px;
+    top: 238px;
+    left: 267px;
+}
+
+#llt {
+    color: white;
+    position: absolute;
+    top: 450px;
+    left: 45px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: roboto;
+}
+
+#llts {
+    color: white;
+    position: absolute;
+    top: 480px;
+    left: 30px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: roboto;
+}
+
+#ull {
+    position: absolute;
+    background-color: white;
+    height: 1.5px;
+    width: 16px;
+    top: 468px;
+    left: 44px;
+}
