@@ -1,6 +1,10 @@
-html {
+body {
     background-color: #333132;
+    max-height: 667px;
+    max-width: 300px;
 }
+
+
 
 #rapicon {
     position: absolute;
@@ -8,13 +12,48 @@ html {
     height: 200px;
     left: 95px;
     top: 30px;
+    animation: float 4s ease-in-out infinite;
 }
 
 #bg {
     position: absolute;
     left: -0.5px;
     top: 60px;
+    animation: floatt 4s ease-in-out infinite;
+    animation-delay: 1s;
+    height: 100%;
 }
+
+@keyframes float {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+		transform: translatey(-20px);
+	}
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+}
+
+@keyframes floatt {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+		transform: translatey(-10px);
+	}
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+}
+
 
 #wel {
     color: white;
