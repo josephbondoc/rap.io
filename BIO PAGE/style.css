@@ -19,6 +19,12 @@
 
 }
 
+tspan, #madvillian, #mmfood {
+    animation: fadeIn .5s linear;
+
+       transition: opacity 0.2s;
+}
+
 /*  SVG STYLES */
 
 .st0 {
@@ -123,10 +129,10 @@ rect.st4 {
 
 @keyframes fadeIn {
 
-    from {
-        opacity: 1;  
+    0%  {
+        opacity: 0;  
     }
-    to {
-        opacity: 0;
+    100% {
+        opacity: 1;
     }
 }
