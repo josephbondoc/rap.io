@@ -2,6 +2,14 @@ html {
     background-color: #333132;
 }
 
+#backbut { 
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
 #ll {
     position: absolute;
     top: 300px;
@@ -156,6 +164,7 @@ html {
     font-size: 15px;
     font-weight: 500;
     font-family: roboto;
+    animation: floatt 4s ease-in-out infinite;
 }
 
 #llts {
@@ -175,4 +184,43 @@ html {
     width: 16px;
     top: 468px;
     left: 44px;
+}
+
+@keyframes float {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+		transform: translatey(-8px);
+	}
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+}
+
+@keyframes floatt {
+	0% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+	50% {
+		/* box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2); */
+		transform: translatey(-4px);
+	}
+	100% {
+		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+		transform: translatey(0px);
+	}
+}
+
+#rapicon {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 25px;
+    left: 220px;
+    animation: float 4s ease-in-out infinite;
 }
