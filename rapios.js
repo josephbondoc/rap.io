@@ -7,7 +7,7 @@ var rapios = {
         songs:[]
     },
     gold:{
-        title:"goldeh age",
+        title:"golden age",
     },
     mod:{
         title:"modern age",
