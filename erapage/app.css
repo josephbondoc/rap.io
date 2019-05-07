@@ -23,7 +23,7 @@ html {
 }
 
 #backgroundshape {
-    margin: 0
+    animation: float 4s ease-in-out infinite;
 }
 
 #choose {
@@ -232,5 +232,4 @@ html {
     position: absolute;
     top: 25px;
     left: 220px;
-    animation: float 4s ease-in-out infinite;
 }
