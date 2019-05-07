@@ -17,8 +17,6 @@ body {
     height: 180px;
     left: 108px;
     top: 30px; 
-    animation: float 4s ease-in-out infinite;
-
 }
 
 #bg {

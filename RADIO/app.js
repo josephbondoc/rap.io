@@ -1,12 +1,12 @@
 var playBtn = document.querySelector("#PlayButton"),
     pauseBtn = document.querySelector("#PauseButton"),
-    backBtn = document.querySelector("#Back"),
+    backBtn = document.querySelector("#BackButton"),
     audio1 = new Audio('./Stop.mp3');
 
 playBtn.addEventListener("click", function(){
+audio1.play();
    playBtn.style.visibility = "hidden";
    pauseBtn.style.visibility = "visible";
-   audio1.play();
 });
 
 pauseBtn.addEventListener("click", function(){
