@@ -1,23 +1,54 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
-#PauseButton {
-   visibility: hidden;
+body {
+	background-color: #333132;
 }
+
+#backbut { 
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+#radiotitle {
+    position: absolute;
+    top: 80px;
+    left: 55px;
+    font-size: 25px;
+    font-weight: 300;
+	font-family: roboto;
+	color: white;
+}
+
+
+#backgroundshape {
+	animation: float 4s ease-in-out infinite;
+	position: absolute;
+	bottom: -10;
+}
+
+
+#rapicon {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 25px;
+    left: 220px;
+}
+
 #PlayButton {
-    visibility: visible;
+	position: absolute;
+	right: 5%;
+	bottom: 4%;
+	width: 150px;
+	height: 100px;
 }
-#Logo {
-    animation: float 4s ease-in-out infinite;
-}
-
-#cool_abstract_thingy_4_ {
-    animation: float 4s ease-in-out infinite;
-    animation-delay: 1s;
-}
-
 /* CSS ANIMATIONS */
 
 
