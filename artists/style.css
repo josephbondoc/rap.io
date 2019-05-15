@@ -2,9 +2,11 @@ body {
     font-family: roboto;
     margin:0;
     background-color: #333132;
-    overflow-x:hidden;
+    overflow:hidden;
     max-width:100%;
     color: #FFFFFF;
+    max-height:667px;
+    max-width:375px;
 }
 
 
@@ -76,5 +78,4 @@ body {
 
 .albumart {
     width:35%;
-
 }
