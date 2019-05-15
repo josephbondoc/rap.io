@@ -63,8 +63,6 @@ var rapios = {
 
 }
 
-// CATAGORY SELECTION
-    
 
 
 
