@@ -1,44 +1,37 @@
-var package = { 
- eras:"",
- radio:"",
- cat:"",
+var package = {
+    eras: "",
+    radio: "",
+    cat: "",
 
 }
 
 var storePackage = localStorage.getItem("package");
 
-    if (storePackage) {
-        package = JSON.parse(storePackage);
-    }
+if (storePackage) {
+    package = JSON.parse(storePackage);
+}
 
 var handler = {
-    set:function(obj, props, value){
+    set: function (obj, props, value) {
 
     }
 }
 
 var prox = new Proxy(package, handler)
 
-function ChangeEras(era){
+function ChangeEras(era) {
     package.eras = era;
     localStorage.setItem("package", JSON.stringify(package));
     location.href = "../CATAGORIES/new.html";
 }
-function Change(era){
-    package.eras = era;
-    localStorage.setItem("package", JSON.stringify(package));
-    location.href = "../CATAGORIES/new.html";
-}
-
 
 
 console.log(package);
 
-function StartCat(){
+function StartCat() {
     document.querySelector(".era").innerHTML = rapios[package.eras].title;
-    if(rapios[package.eras].button3){
+    if (rapios[package.eras].button3) {
         //change innerHTML of button 1
     }
     //img.src = rapios[package.eras].image[randomNum];
 }
-

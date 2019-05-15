@@ -9,12 +9,21 @@ body {
 /* RAP.IO SHAPE START */
 .shape {
 
-    right:0%;
-    bottom: 0%;
+    right:-10%;
+    bottom: -70%;
     width:70%;
     position: absolute;
     overflow:hidden;
+    z-index:-1000;
+}
 
-
+.rapicon {
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: 25px;
+    left: 220px;
+    animation: float 4s ease-in-out infinite;
+    z-index: 100;
 }
 
