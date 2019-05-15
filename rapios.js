@@ -12,7 +12,7 @@ var rapios = {
         songs: [],
 
         struggle1: "Grandmaster-Flash",
-        struggle2: "Sugerhill Gang",
+        struggle2: "Sugarhill Gang",
         struggle3: "Run DMC",
 
         bragg1: "Public Enemy",
