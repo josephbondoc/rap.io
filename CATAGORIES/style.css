@@ -9,6 +9,13 @@ body {
     background-color: #333132;
 }
 
+p {
+    position: absolute;
+    left: -200px;
+    transition: 1s;
+    font-family: roboto;
+    color: white;
+}
 .wrap {
     overflow: hidden;
 }

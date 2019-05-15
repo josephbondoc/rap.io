@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 </head>
-<body onload="StartCat()">
+<body onload="StartCat()" onload="StartArtists()">
 
 
     
@@ -22,14 +22,27 @@
         <a href="../erapage/index.html">
         <img src="../img\rap.io_backbut.svg" id="backbut"></a>
 
-        <span class="era">golden age</span>
+        <span class="era"></span>
         <div class="eraline"></div>
         <div class="ui">
+
+            <button class="but1" onclick="but1slide()"></button>
+            <button class="but2"onclick="but2slide()"></button>
+            <button class="but3"onclick="but3slide()"></button>
+
             <a href="../BIO PAGE/index.html">
-                <button class="but1">instrumental.</button>
-                <button class="but2">braggadocio.</button>
-                <button class="but3">braggadocio.</button>
-            </a>
+
+            <p class="artist1" onclick="biopage()"></p>
+            <p class="artist2"></p>
+            <p class="artist3"></p>
+            <p class="artist4"></p>
+            <p class="artist5"></p>
+            <p class="artist6"></p>
+            <p class="artist7"></p>
+            <p class="artist8"></p>
+            <p class="artist9"></p>
+        </a>
+
         </div>
         
         <!-- SPLASH ART -->
@@ -51,6 +64,8 @@
 
 
 <script src="../rapios.js"></script>
+<script src="app.js"></script>
+
 <script src="../proxy.js"></script>
 </body>
 </html>
