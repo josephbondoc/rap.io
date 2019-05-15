@@ -45,6 +45,16 @@ body {
     width: 90%;
     position: absolute;
 }
+
+/* SEPARATE SPLASH IMG OVERRIDE */
+
+#jdilla {
+    left:31%;
+    width:130%;
+}
+
+
+
 .artistdesc {
     width: 0vw;
     font-size: 0.75rem;
