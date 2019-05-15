@@ -1,10 +1,11 @@
 var playBtn = document.querySelector("#PlayButton"),
     pauseBtn = document.querySelector("#PauseButton"),
     backBtn = document.querySelector("#BackButton"),
-    audio1 = new Audio('./Stop.mp3');
+    i=0,
+    playlist = new Audio('./songs/Stop.mp3');
 
 playBtn.addEventListener("click", function(){
-audio1.play();
+playlist.play();
    playBtn.style.visibility = "hidden";
    pauseBtn.style.visibility = "visible";
 });
@@ -12,11 +13,15 @@ audio1.play();
 pauseBtn.addEventListener("click", function(){
     pauseBtn.style.visibility = "hidden";
     playBtn.style.visibility = "visible";
-    audio1.pause();
+    playlist.pause();
 });
 
-backBtn.addEventListener("click", function(){
-    audio1.play();
-});
+function fwd(){
+    playlist = "./music/"+i+++".mp3"
+    playlist.play();
+    if (i == 3){
+        i=0;
+    }
+}
 
 
