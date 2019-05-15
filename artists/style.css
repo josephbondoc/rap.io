@@ -4,6 +4,7 @@ body {
     background-color: #333132;
     overflow-x:hidden;
     max-width:100%;
+    color: #FFFFFF;
 }
 
 /* RAP.IO SHAPE START */
@@ -11,7 +12,7 @@ body {
 
     right:-10%;
     bottom: -70%;
-    width:70%;
+    width:65%;
     position: absolute;
     overflow:hidden;
     z-index:-1000;
@@ -26,4 +27,41 @@ body {
     animation: float 4s ease-in-out infinite;
     z-index: 100;
 }
+.artist {
+    color: white;
+    position: absolute;
+    top: 80px;
+    left: 45px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: roboto;
+}
+.splashimg1 {
+    bottom:0px;
+    left:45%;
+    width: 90%;
+    position: absolute;
+}
+.artistdesc {
+    height: 20vh;
+    width: 60vw;
+    font-size: 0.75rem;
+    font-weight:300;
+    top:10%;
+    left:-8%;
+    position: absolute;
+    padding:20%;
+}
 
+/* TOP ALBUMS START */
+#topalbumsline {
+    position: absolute;
+    top:63%;
+    left:12%;
+}
+
+.topalbums {
+    position: absolute;
+    left:11%;
+    top:59%;
+}
