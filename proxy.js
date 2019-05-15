@@ -30,6 +30,9 @@ console.log(package);
 
 function StartCat() {
     document.querySelector(".era").innerHTML = rapios[package.eras].title;
+    document.querySelector(".but1").innerHTML = rapios[package.eras].button1;
+    document.querySelector(".but2").innerHTML = rapios[package.eras].button2;
+    document.querySelector(".but3").innerHTML = rapios[package.eras].button3;
     if (rapios[package.eras].button3) {
         //change innerHTML of button 1
     }

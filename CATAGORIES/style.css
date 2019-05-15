@@ -34,7 +34,7 @@ body {
 }
 
 
-.but {
+.but1, .but2, .but3 {
     color: white;
     background-color: transparent;
     border-radius: 20px;
