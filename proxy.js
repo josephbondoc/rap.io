@@ -22,7 +22,7 @@ var prox = new Proxy(package, handler)
 function ChangeEras(era){
     package.eras = era;
     localStorage.setItem("package", JSON.stringify(package));
-    location.href = "../CATAGORIES/catagory-revise/new.html";
+    location.href = "../CATAGORIES/new.html";
 }
 
 console.log(package);
