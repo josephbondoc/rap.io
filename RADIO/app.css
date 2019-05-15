@@ -105,3 +105,10 @@ body {
 		transform: translatey(0px);
 	}
 }
+
+#dilla {
+	position: absolute;
+	width: 43%;
+	top: 30%;
+	left: 6%;
+}
