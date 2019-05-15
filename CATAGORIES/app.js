@@ -48,7 +48,8 @@ function but3slide(){
 
 function biopage(){
     if (document.getElementsByClassName("but1")[0].innerHTML == "west coast"){
-        document.getElementsByClassName("artist1").
+        document.getElementsByClassName("link").href = "..BIO_PAGE/idasdasndox.html";
+        console.log("gf");
     }
 }
 
