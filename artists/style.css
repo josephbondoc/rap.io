@@ -2,9 +2,11 @@ body {
     font-family: roboto;
     margin:0;
     background-color: #333132;
-    overflow-x:hidden;
+    overflow:hidden;
     max-width:100%;
     color: #FFFFFF;
+    max-height:667px;
+    max-width:375px;
 }
 
 
@@ -43,6 +45,16 @@ body {
     width: 90%;
     position: absolute;
 }
+
+/* SEPARATE SPLASH IMG OVERRIDE */
+
+#jdilla {
+    left:31%;
+    width:130%;
+}
+
+
+
 .artistdesc {
     width: 0vw;
     font-size: 0.75rem;
@@ -76,5 +88,4 @@ body {
 
 .albumart {
     width:35%;
-
 }
