@@ -54,15 +54,15 @@ function but1(){
      } else if (document.getElementsByClassName("but1")[0].innerHTML == "the struggle"){
         document.querySelector("#link").href = "../startpage/startpage.html";
     } else if (document.getElementsByClassName("but1")[0].innerHTML == "alternative"){
-        document.querySelector("#link").href = "../startpage/startpage.html";
+        document.querySelector("#link").href = "../artists/modern/kanye.html";
     }
 }
 
 function but2(){
     if (document.getElementsByClassName("but2")[0].innerHTML == "braggadocio"){
-        document.querySelector("#link").href = "../erapage/index.html";
+        document.querySelector("#link").href = "../artists/goldenage/jdilla.html";
     } else if (document.getElementsByClassName("but2")[0].innerHTML == "instrumental"){
-       document.querySelector("#link").href = "../startpage/startpage.html";
+       document.querySelector("#link").href = "../artists/goldenage/jdilla.html";
    } else if (document.getElementsByClassName("but2")[0].innerHTML == "conscious"){
        document.querySelector("#link").href = "../startpage/startpage.html";
    }
