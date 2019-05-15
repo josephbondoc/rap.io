@@ -1,3 +1,5 @@
+//starting vars
+
 var package = {
     eras: "",
     radio: "",
@@ -5,6 +7,7 @@ var package = {
 
 }
 
+//storage, packages, proxy
 var storePackage = localStorage.getItem("package");
 
 if (storePackage) {
@@ -28,6 +31,7 @@ function ChangeEras(era) {
 
 console.log(package);
 
+//function to rename buttons to proper names
 function StartCat() {
     document.querySelector(".era").innerHTML = rapios[package.eras].title;
     document.querySelector(".but1").innerHTML = rapios[package.eras].button1;

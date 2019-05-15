@@ -46,6 +46,7 @@ body {
 
 }
 
+/* floating animation for background  */
 @keyframes float {
 	0% {
 		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
@@ -77,6 +78,7 @@ body {
 }
 
 
+/* css for homepage text and graphics */
 .wel {
     color: white;
     position: absolute;

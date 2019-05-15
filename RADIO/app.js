@@ -1,3 +1,5 @@
+
+// controls and functions for play/pause button
 var playBtn = document.querySelector("#PlayButton"),
     pauseBtn = document.querySelector("#PauseButton"),
     backBtn = document.querySelector("#BackButton"),

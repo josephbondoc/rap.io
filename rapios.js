@@ -1,6 +1,8 @@
 // ERA SELECTION
 
 var rapios = {
+
+    //old school era 
     old: {
         title: "old school",
         image: ["img/blah.jpg", "img/blah2.jpg"],
@@ -22,6 +24,8 @@ var rapios = {
         party3: "DJ Kool Herc"
 
     },
+
+    //golden age era
     gold: {
         title: "golden age",
         button1:"west coast",
@@ -40,7 +44,7 @@ var rapios = {
         party2: "Wu-Tang Clan",
         party3: "Nas"
     },
-
+    //modern age era
     mod: {
         title: "modern age",
         button1: "alternative",
@@ -63,7 +67,6 @@ var rapios = {
 
 }
 
-// CATAGORY SELECTION
 
 
 
