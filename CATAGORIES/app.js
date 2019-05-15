@@ -50,7 +50,7 @@ function but3slide(){
 //functions to href the genres to the artists pages
 function but1(){
      if (document.getElementsByClassName("but1")[0].innerHTML == "west coast"){
-         document.querySelector("#link").href = "../erapage/index.html";
+         document.querySelector("#link").href = "../artists/goldenage/snoopdogg.html";
      } else if (document.getElementsByClassName("but1")[0].innerHTML == "the struggle"){
         document.querySelector("#link").href = "../startpage/startpage.html";
     } else if (document.getElementsByClassName("but1")[0].innerHTML == "alternative"){
