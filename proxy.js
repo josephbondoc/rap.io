@@ -24,6 +24,13 @@ function ChangeEras(era){
     localStorage.setItem("package", JSON.stringify(package));
     location.href = "../CATAGORIES/new.html";
 }
+function Change(era){
+    package.eras = era;
+    localStorage.setItem("package", JSON.stringify(package));
+    location.href = "../CATAGORIES/new.html";
+}
+
+
 
 console.log(package);
 
