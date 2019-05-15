@@ -1,7 +1,7 @@
 var package = {
     eras: "",
     radio: "",
-    cat: "",
+    artist: "",
 
 }
 
@@ -17,7 +17,7 @@ var handler = {
     }
 }
 
-var prox = new Proxy(package, handler)
+var prox = new Proxy(package, handler)  
 
 function ChangeEras(era) {
     package.eras = era;
@@ -52,5 +52,10 @@ function StartCat() {
 }
 
 function StartArtists(){
-    
+    document.querySelector(".bio").innerHTML = artists[package.artist].bio;
+    document.querySelector(".name").innerHTML = artists[package.artist].name;
+    document.querySelector(".goldpic").innerHTML = artists[package.artist].goldpic;
+    document.querySelector(".album1").innerHTML = artists[package.artist].album1;
+    document.querySelector(".album2").innerHTML = artists[package.artist].album2;
+
 }

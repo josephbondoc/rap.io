@@ -65,8 +65,11 @@ var rapios = {
 
 // CATAGORY SELECTION
 
-var genres = {
-    
+var artists = {
+    : {
+        name:
+    }
+
 
 }
     
