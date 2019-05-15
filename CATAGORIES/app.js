@@ -72,7 +72,7 @@ function but3(){
     if (document.getElementsByClassName("but3")[0].innerHTML == "party"){
         document.querySelector("#link").href = "../erapage/index.html";
     } else if (document.getElementsByClassName("but3")[0].innerHTML == "east coast"){
-       document.querySelector("#link").href = "../startpage/startpage.html";
+       document.querySelector("#link").href = "../artists/goldenage/big.html";
    } else if (document.getElementsByClassName("but3")[0].innerHTML == "trap"){
        document.querySelector("#link").href = "../startpage/startpage.html";
    }

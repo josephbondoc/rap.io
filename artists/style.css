@@ -14,7 +14,7 @@ body {
 .shape {
 
     right:-10%;
-    bottom: -70%;
+    bottom: -76%;
     width:65%;
     position: absolute;
     overflow:hidden;
@@ -122,7 +122,7 @@ body {
     width: 95px;
     height: 30px;
     position: absolute;
-    top: 310px;
+    top: 350px;
     right: 20px;
     border: 0.5px solid #FBC403;
     font-family: roboto;
@@ -179,8 +179,8 @@ body {
     width: 95px;
     height: 30px;
     position: absolute;
-    top: 30px;
-    right: 150px;
+    top: 350px;
+    right: 90px;
     border: 0.5px solid #FBC403;
     font-family: roboto;
     font-weight: 100;
@@ -194,8 +194,55 @@ body {
     width: 95px;
     height: 30px;
     position: absolute;
-    top:70px;
-    right: 150px;
+    top:350px;
+    right: 195px;
+    border: 0.5px solid #FBC403;
+    font-family: roboto;
+    font-weight: 100;
+
+}
+
+#oldalt22{
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 95px;
+    height: 30px;
+    position: absolute;
+    top:360px;
+    right: 115px;
+    border: 0.5px solid #FBC403;
+    font-family: roboto;
+    font-weight: 100;
+
+}
+
+
+#oldalt3 {
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 95px;
+    height: 30px;
+    position: absolute;
+    top:320px;
+    right: 20px;
+    border: 0.5px solid #FBC403;
+    font-family: roboto;
+    font-weight: 100;
+
+}
+
+
+#oldalt4 {
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 95px;
+    height: 30px;
+    position: absolute;
+    top:320px;
+    right: 130px;
     border: 0.5px solid #FBC403;
     font-family: roboto;
     font-weight: 100;
