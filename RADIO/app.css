@@ -20,7 +20,7 @@ body {
     position: absolute;
     top: 80px;
     left: 55px;
-    font-size: 25px;
+    font-size: 230%;
     font-weight: 300;
 	font-family: roboto;
 	color: white;
@@ -31,7 +31,8 @@ body {
 	position: absolute;
 	bottom: 0;
 	right: 0;
-	width: 175px;
+	width: 45vw;
+	animation: float 3s ease-in-out infinite;
 }
 
 
@@ -40,40 +41,48 @@ body {
     height: 140px;
     position: absolute;
     top: 25px;
-    left: 220px;
+	left: 220px;
 }
 
 #PlayButton {
 	position: absolute;
-	right: 5%;
-	bottom: 4%;
-	width: 15%;
-	height: 15%;
+	right: 10%;
+	bottom: 33%;
+	width: 19%;
+	height: 19%;
+	animation: float 3s ease-in-out infinite;
+
 }
 
 #PauseButton {
 	position: absolute;
-	right: 5%;
-	bottom: 4%;
-	width: 15%;
-	height: 15%;
+	right: 10%;
+	bottom: 33%;
+	width: 19%;
+	height: 19%;
 	visibility: hidden;
+	animation: float 3s ease-in-out infinite;
+
 }
 
 #BackButton {
 	position: absolute;
-	right: 5%;
-	bottom: 40%;
-	width: 15%;
+	right: 24%;
+	bottom: 7%;
+	width: 11%;
 	height: 15%;
+	animation: float 3s ease-in-out infinite;
+
 }
 
 #ForwardButton {
 	position: absolute;
 	right: 5%;
-	bottom: 22%;
-	width: 15%;
+	bottom: 7%;
+	width: 11%;
 	height: 15%;
+	animation: float 3s ease-in-out infinite;
+
 }
 
 
