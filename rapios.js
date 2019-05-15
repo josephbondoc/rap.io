@@ -65,14 +65,7 @@ var rapios = {
 
 // CATAGORY SELECTION
 
-var artists = {
-    : {
-        name:
-    }
 
-
-}
-    
 
 
 

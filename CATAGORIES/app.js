@@ -49,9 +49,36 @@ function but3slide(){
 function biopage(){
     if (document.getElementsByClassName("but1")[0].innerHTML == "west coast"){
         document.querySelector("#link").href = "../erapage/index.html";
-        console.log("gf");
+    } else if (document.getElementsByClassName("but2")[0].innerHTML == "instrumental"){
+        document.querySelector("#link").href = "../startpage/startpage.html";
+    } if (document.getElementsByClassName("but3")[0].innerHTML == "east coast"){
+        document.querySelector("#link").href = "../erapage/index.html";
+    } if (document.getElementsByClassName("but1")[0].innerHTML == "the struggle"){
+        document.querySelector("#link").href = "../erapage/index.html";
+    } if (document.getElementsByClassName("but1")[0].innerHTML == "braggadocio"){
+        document.querySelector("#link").href = "../erapage/index.html";
+    } if (document.getElementsByClassName("but1")[0].innerHTML == "party"){
+        document.querySelector("#link").href = "../erapage/index.html";
+    } if (document.getElementsByClassName("but1")[0].innerHTML == "alternative"){
+        document.querySelector("#link").href = "../erapage/index.html";
+    } if (document.getElementsByClassName("but1")[0].innerHTML == "conscious"){
+        document.querySelector("#link").href = "../erapage/index.html";
+    } if (document.getElementsByClassName("but1")[0].innerHTML == "trap"){
+        document.querySelector("#link").href = "../erapage/index.html";
     }
 }
+
+function but1(){
+    if (document.getElementsByClassName("but1")[0].innerHTML == "west coast"){
+        document.querySelector("#link").href = "../erapage/index.html";
+    } else if (document.getElementsByClassName("but1")[0].innerHTML == "the struggle"){
+        document.querySelector("#link").href = "../startpage/startpage.html";
+    }
+}
+
+but1();
+
+
 
 
 
