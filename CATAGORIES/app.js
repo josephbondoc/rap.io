@@ -1,3 +1,4 @@
+//function to show the artists via css transition
 function but1slide(){
     document.querySelector(".artist1").style.left = "30px";
     document.querySelector(".artist1").style.top = "35px";
@@ -46,38 +47,36 @@ function but3slide(){
     document.querySelector(".artist6").style.left = "-200px";
 }
 
-function biopage(){
-    if (document.getElementsByClassName("but1")[0].innerHTML == "west coast"){
+//functions to href the genres to the artists pages
+function but1(){
+     if (document.getElementsByClassName("but1")[0].innerHTML == "west coast"){
+         document.querySelector("#link").href = "../erapage/index.html";
+     } else if (document.getElementsByClassName("but1")[0].innerHTML == "the struggle"){
+        document.querySelector("#link").href = "../startpage/startpage.html";
+    } else if (document.getElementsByClassName("but1")[0].innerHTML == "alternative"){
+        document.querySelector("#link").href = "../startpage/startpage.html";
+    }
+}
+
+function but2(){
+    if (document.getElementsByClassName("but2")[0].innerHTML == "braggadocio"){
         document.querySelector("#link").href = "../erapage/index.html";
     } else if (document.getElementsByClassName("but2")[0].innerHTML == "instrumental"){
-        document.querySelector("#link").href = "../startpage/startpage.html";
-    } if (document.getElementsByClassName("but3")[0].innerHTML == "east coast"){
-        document.querySelector("#link").href = "../erapage/index.html";
-    } if (document.getElementsByClassName("but1")[0].innerHTML == "the struggle"){
-        document.querySelector("#link").href = "../erapage/index.html";
-    } if (document.getElementsByClassName("but1")[0].innerHTML == "braggadocio"){
-        document.querySelector("#link").href = "../erapage/index.html";
-    } if (document.getElementsByClassName("but1")[0].innerHTML == "party"){
-        document.querySelector("#link").href = "../erapage/index.html";
-    } if (document.getElementsByClassName("but1")[0].innerHTML == "alternative"){
-        document.querySelector("#link").href = "../erapage/index.html";
-    } if (document.getElementsByClassName("but1")[0].innerHTML == "conscious"){
-        document.querySelector("#link").href = "../erapage/index.html";
-    } if (document.getElementsByClassName("but1")[0].innerHTML == "trap"){
-        document.querySelector("#link").href = "../erapage/index.html";
-    }
+       document.querySelector("#link").href = "../startpage/startpage.html";
+   } else if (document.getElementsByClassName("but2")[0].innerHTML == "conscious"){
+       document.querySelector("#link").href = "../startpage/startpage.html";
+   }
 }
 
-function but1(){
-    if (document.getElementsByClassName("but1")[0].innerHTML == "west coast"){
+function but3(){
+    if (document.getElementsByClassName("but3")[0].innerHTML == "party"){
         document.querySelector("#link").href = "../erapage/index.html";
-    } else if (document.getElementsByClassName("but1")[0].innerHTML == "the struggle"){
-        document.querySelector("#link").href = "../startpage/startpage.html";
-    }
+    } else if (document.getElementsByClassName("but3")[0].innerHTML == "east coast"){
+       document.querySelector("#link").href = "../startpage/startpage.html";
+   } else if (document.getElementsByClassName("but3")[0].innerHTML == "trap"){
+       document.querySelector("#link").href = "../startpage/startpage.html";
+   }
 }
-
-but1();
-
 
 
 

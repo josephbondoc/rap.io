@@ -4,7 +4,7 @@ var rapios = {
     old: {
         title: "old school",
         image: ["img/blah.jpg", "img/blah2.jpg"],
-        button1: "the stuggle",
+        button1: "the struggle",
         button2: "braggadocio",
         button3: "party",
         songs: [],
