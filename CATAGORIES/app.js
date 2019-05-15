@@ -48,7 +48,7 @@ function but3slide(){
 
 function biopage(){
     if (document.getElementsByClassName("but1")[0].innerHTML == "west coast"){
-        document.getElementsByClassName("link").href = "..BIO_PAGE/idasdasndox.html";
+        document.querySelector("#link").href = "../erapage/index.html";
         console.log("gf");
     }
 }
