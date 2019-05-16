@@ -52,7 +52,7 @@ function but1(){
      if (document.getElementsByClassName("but1")[0].innerHTML == "west coast"){
          document.querySelector("#link").href = "../artists/goldenage/snoopdogg.html";
      } else if (document.getElementsByClassName("but1")[0].innerHTML == "the struggle"){
-        document.querySelector("#link").href = "../startpage/startpage.html";
+        document.querySelector("#link").href = "../artists/oldschool/gflash.html";
     } else if (document.getElementsByClassName("but1")[0].innerHTML == "alternative"){
         document.querySelector("#link").href = "../artists/modern/kanye.html";
     }
@@ -60,21 +60,21 @@ function but1(){
 
 function but2(){
     if (document.getElementsByClassName("but2")[0].innerHTML == "braggadocio"){
-        document.querySelector("#link").href = "../artists/goldenage/jdilla.html";
+        document.querySelector("#link").href = "../artists/oldschool/enemy.html";
     } else if (document.getElementsByClassName("but2")[0].innerHTML == "instrumental"){
        document.querySelector("#link").href = "../artists/goldenage/jdilla.html";
    } else if (document.getElementsByClassName("but2")[0].innerHTML == "conscious"){
-       document.querySelector("#link").href = "../startpage/startpage.html";
+       document.querySelector("#link").href = "../artists/modern/lamar.html";
    }
 }
 
 function but3(){
     if (document.getElementsByClassName("but3")[0].innerHTML == "party"){
-        document.querySelector("#link").href = "../erapage/index.html";
+        document.querySelector("#link").href = "../artists/modern/migos.html";
     } else if (document.getElementsByClassName("but3")[0].innerHTML == "east coast"){
        document.querySelector("#link").href = "../artists/goldenage/big.html";
    } else if (document.getElementsByClassName("but3")[0].innerHTML == "trap"){
-       document.querySelector("#link").href = "../startpage/startpage.html";
+       document.querySelector("#link").href = "../artists/modern/flocka.html";
    }
 }
 
